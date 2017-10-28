@@ -6,6 +6,9 @@ angular.module('video-player')
     controller: function() {
       this.videos = window.exampleVideoData;
       this.first = window.exampleVideoData[0];
+      this.onClick = video => {
+        this.first = video;
+      };
     }
     
   });
