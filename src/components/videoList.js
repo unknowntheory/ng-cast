@@ -5,11 +5,6 @@ angular.module('video-player')
       videos: '<',
       onClick: '<'
       
-    },
-    
-    controller: () => {
-        
     }
- 
     
   });
